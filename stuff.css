@@ -1,0 +1,12 @@
+.box {
+    width: 60px;
+    color: #FF6565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+}
