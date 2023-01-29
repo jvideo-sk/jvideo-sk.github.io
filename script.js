@@ -7,10 +7,7 @@ const texts = [
     "Web Design",
     "Games",
     "Java Development",
-    "Javascript Delvelopment",
     "Python Development",
-    "Backend Development",
-    "Frontend Development",
     "Minecraft Plugins",
     "Too many projects"
 ]
