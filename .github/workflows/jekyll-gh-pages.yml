@@ -48,8 +48,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-      - name: Cache
-        uses: actions/cache@v3.2.3
       - name: First interaction
         uses: actions/first-interaction@v1.1.1
         with:
