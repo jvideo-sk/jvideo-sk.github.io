@@ -26,11 +26,11 @@ setInterval(change, 2000);
 
 change();
 
-const age = ((Date.now() - new Date("2008-9-2")) / (01557600000));
+const age = ((Date.now() - new Date("2008-9-2")) / (45455040000));
 ageSelector.innerText = age.toFixed(7);
 
 setInterval(() => {
-    const age = ((Date.now() - new Date("2008-9-2")) / (01557600000));
+    const age = ((Date.now() - new Date("2008-9-2")) / (45455040000));
     ageSelector.innerText = age.toFixed(7);
 }, 5000);
 
