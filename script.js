@@ -3,13 +3,14 @@ const parentTextSelector = document.querySelector("container > h3");
 const ageSelector = document.querySelectorAll("container > h3 > span")[1];
 
 const texts = [
-    "Web Development",
-    "Web Design",
-    "Games",
+    "Skript Projects",
+    "Having Sex",
+    "Doing Your Mom",
     "Java Development",
     "Python Development",
     "Minecraft Plugins",
-    "Too many projects"
+    "Too many projects",
+    "Being Gay"
 ]
 
 function change() {
