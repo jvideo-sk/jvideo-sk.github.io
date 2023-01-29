@@ -4,7 +4,7 @@ const ageSelector = document.querySelectorAll("container > h3 > span")[1];
 
 const texts = [
     "Skript Projects",
-    "Having Sex",
+    "Having S*x",
     "Doing Your Mom",
     "Java Development",
     "Python Development",
