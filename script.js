@@ -33,7 +33,7 @@ ageSelector.innerText = age.toFixed(8);
 setInterval(() => {
     const age = ((Date.now() - new Date("2008-9-2")) / (31557600000));
     ageSelector.innerText = age.toFixed(8);
-}, 5000);
+}, 1000);
 
 // Modals
 
