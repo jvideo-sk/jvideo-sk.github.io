@@ -8,8 +8,8 @@ function toggleMenu() {
 
 function updateAge() {
     const age = (Date.now() - birthDate) / 31557600000;
-    ageSelector.innerText = `Age: ${age.toFixed(10)}`;
+    ageSelector.innerText = `I am ${age.toFixed(20)} years old.`;
 }
 
 updateAge();
-setInterval(updateAge, 50);
+setInterval(updateAge, 1);
