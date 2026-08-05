@@ -96,6 +96,26 @@ main {
     gap: 20px;
 }
 
+.cards article {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 0; /* removes default article spacing */
+}
+
+.cards article h2,
+.cards article p {
+    margin: 0;
+}
+
+.cards article h2 {
+    margin-bottom: 10px;
+}
+
+.cards article p {
+    margin-bottom: 15px;
+}
+
 article {
     background: #1e293b;
     padding: 20px;

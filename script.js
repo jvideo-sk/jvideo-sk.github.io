@@ -11,5 +11,35 @@ function updateAge() {
     ageSelector.innerText = `I am ${age.toFixed(20)} years old.`;
 }
 
+async function loadProjects() {
+    const response = await fetch(
+        "https://api.github.com/users/jvideo-sk/repos?sort=updated"
+    );
+
+    const repos = await response.json();
+
+    const container = document.getElementById("projects");
+
+    repos.forEach(repo => {
+        // Skip forks if you want
+        if (repo.fork) return;
+
+        const card = document.createElement("article");
+
+        card.innerHTML = `
+            <h2>${repo.name}</h2>
+            <p>${repo.description ?? "No description provided."}</p>
+
+            <a href="${repo.html_url}" target="_blank">
+                View Repository →
+            </a>
+        `;
+
+        container.appendChild(card);
+    });
+}
+
+loadProjects();
+
 updateAge();
 setInterval(updateAge, 1);
