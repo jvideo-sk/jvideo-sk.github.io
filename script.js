@@ -1,5 +1,5 @@
 console.log("Welcome to jvideo.dev");
-const birthDate = new Date(process.env.BIRTHDATE);
+const birthDate = new Date(1210377600000);
 const ageSelector = document.getElementById("age");
 
 
